@@ -166,6 +166,7 @@ if __name__ == "__main__":
 
 ## Week 5-6 Data retrieval and knowledge synthesis
 Please follow the repository Advanced-Biotechnology-Series for NEKO and GraphRAG
+We will also upload code here after the class.
 
 https://github.com/xiao-zhengyang/Advanced-Biotechnology-Series 
 
