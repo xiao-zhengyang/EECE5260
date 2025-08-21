@@ -161,6 +161,13 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
 ```
+
+
+## Week 5-6 Data retrieval and knowledge synthesis
+Please follow the repository Advanced-Biotechnology-Series for NEKO and GraphRAG
+
+https://github.com/xiao-zhengyang/Advanced-Biotechnology-Series 
+
+<img width="1687" height="361" alt="image" src="https://github.com/user-attachments/assets/908fbe0a-c878-42ae-87e0-e49259c3f3d8" />
 
