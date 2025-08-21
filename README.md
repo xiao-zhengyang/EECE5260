@@ -170,9 +170,13 @@ if __name__ == "__main__":
 NEKO integrates PubMed searches for literature mining. It automatically uses LLMs (e.g., ChatGPT, Qwen) to identify entities and causal relationships in studies.  
 Use the uploaded jupyter notebook for using NEKO.
 - Recommended model: ```qwen3:8b``` (download via [Ollama](https://ollama.ai/))
-  ```ollama pull qwen3:8b```
+  ```bash
+  ollama pull qwen3:8b
+  ```
 - Also download: ```nomic-embed-text:latest``` for embedding
-  ```ollama pull nomic-embed-text:latest```
+  ```bash
+  ollama pull nomic-embed-text:latest
+  ```
 - NEKO outputs include:  
   - Summarized reports  
   - Knowledge graphs (via PyVis)  
