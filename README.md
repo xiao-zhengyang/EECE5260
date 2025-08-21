@@ -195,8 +195,6 @@ In `settings.txt`, add:
 PARAMETER num_ctx 8192
 ```
 
----
-
 **Step 2: Initialize GraphRAG and Prompt Tuning**  
 Install and initialize a new project:  
 
@@ -215,8 +213,6 @@ python -m graphrag prompt-tune   --root ./[Yarrowia_local]   --config ./[Yarrowi
 
 > Use large-parameter LLMs (>70B) such as GPT-4o or Qwen3-235B for tuning. Replace the OpenAI API key in the YAML config file.  
 
----
-
 **Step 3: Index Input Text**  
 
 ```bash
@@ -225,8 +221,6 @@ graphrag index --root ./[Yarrowia_local]
 
 - CPU: ~10+ hours  
 - GPU: <30 minutes  
-
----
 
 **Step 4: Querying and Visualization**  
 GraphRAG supports multiple query modes:  
