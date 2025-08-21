@@ -1,0 +1,250 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="BETA-CAROTENE" />
+    <node id="YARROWIA LIPOLYTICA" />
+    <node id="ZEAXANTHIN" />
+    <node id="LIPIDS" />
+    <node id="ACETIC ACID" />
+    <node id="CLOSTRIDIUM ACETICUM" />
+    <node id="FERMENTATION" />
+    <node id="OLEAGINOUS YARROWIA LIPOLYTICA" />
+    <node id="SYNGAS" />
+    <node id="ANTIOXIDANT" />
+    <node id="LUTEIN" />
+    <node id="METABOLIC ENGINEERING" />
+    <node id="MIAA7 DEGRON" />
+    <node id="&#914;-CAROTENE KETOLASE" />
+    <node id="&#914;-CAROTENE" />
+    <node id="OSTIR1&lt;SUP&gt;F74A&lt;/SUP&gt;" />
+    <node id="AID SYSTEM" />
+    <node id="MT2 PROMOTER" />
+    <node id="5-AD-IAA" />
+    <node id="FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY" />
+    <node id="CAROTENOGENESIS GENES" />
+    <node id="MEVALONATE PATHWAY" />
+    <node id="FATTY ACID SYNTHESIS PATHWAY" />
+    <node id="THMGR" />
+    <node id="CANTHAXANTHIN" />
+    <node id="ECHINENONE" />
+    <node id="ASTAXANTHIN" />
+    <node id="BIOREACTOR" />
+    <node id="LEUCINE BIOSYNTHESIS" />
+    <node id="TERPENOID BIOSYNTHESIS" />
+    <node id="PLANT OIL" />
+    <node id="LIPID-DERIVED FEEDSTOCK" />
+    <node id="MICROBIAL BIOREFINERY" />
+    <node id="GLYCOLYSIS" />
+    <node id="TCA CYCLE" />
+    <node id="HOMOLOGY-INDEPENDENT GENOME INTEGRATION" />
+    <node id="GENOME ENGINEERING" />
+    <node id="BETA-CAROTENE BIOSYNTHETIC PATHWAY" />
+    <node id="CARB AND CARRP" />
+    <node id="BETA-IONONE" />
+    <node id="TERPENOID BACKBONE" />
+    <node id="OLEAGINOUS YEAST" />
+    <node id="LIBRARY CONSTRUCTION" />
+    <node id="MULTIGENE EXPRESSION LIBRARIES" />
+    <node id="ENZYME EXPRESSION" />
+    <node id="TERPENOID" />
+    <node id="CARB" />
+    <node id="CARRP" />
+    <node id="CAROTENOID CLEAVAGE DIOXYGENASE 1 (CCD1)" />
+    <node id="DODECANE TRAPPING" />
+    <node id="GRAS YARROWIA LIPOLYTICA PLATFORM" />
+    <node id="GLOBAL TRANSCRIPTION ENGINEERING" />
+    <node id="SPT15-LIKE (YL-SPT15)" />
+    <node id="ERROR-PRONE PCR" />
+    <node id="MUTAGENESIS" />
+    <node id="SPT15-LIKE" />
+    <node id="HOMOLOGOUS RECOMBINATION" />
+    <node id="RNA POLYMERASE" />
+    <node id="FATTY ACID DEGRADATION" />
+    <node id="GENOME-WIDE MULTI-GENE EXPRESSION" />
+    <node id="KU70" />
+    <node id="PEX10" />
+    <node id="URA3" />
+    <node id="BETA-CAROTENE BIOSYNTHETIC GENES" />
+    <node id="HOMOLOGOUS RECOMBINATION (HR)" />
+    <node id="BIOTECHNOLOGICAL APPLICATIONS" />
+    <node id="BETA-CAROTENE KETOLASE (CRTW)" />
+    <node id="HYDROXYLASE (CRTZ)" />
+    <node id="XANTHOPHYLLS" />
+    <node id="PHYTOENE SYNTHASE/LYCOPENE CYCLASE (CRTYB)" />
+    <node id="PHYTOENE DESATURASE (CRTI)" />
+    <node id="3-HYDROXY-3-METHYLGLUTARYL-COENZYME A REDUCTASE (HMG1)" />
+    <node id="GERANYLGERANYL DIPHOSPHATE SYNTHASE (GGS1/CRTE)" />
+    <node id="SQUALENE SYNTHASE (SQS1)" />
+    <node id="HETEROLOGOUS PATHWAYS" />
+    <node id="SYNTHETIC CIRCUITS" />
+    <node id="ENGINEERED ENZYMES" />
+    <node id="CORYNEBACTERIUM GLUTAMICUM" />
+    <node id="TCA CYCLE-DERIVED BIOSYNTHESIS" />
+    <node id="METABOLIC STRENGTHS" />
+    <node id="LYCOPENE" />
+    <node id="FATTY ACIDS" />
+    <node id="CAROTENOIDS" />
+    <node id="CYANOBACTERIA" />
+    <node id="PHOTOSYNTHETIC PRODUCTION" />
+    <node id="SUGAR PHOSPHATE PATHWAYS" />
+    <node id="RHODOCOCCUS" />
+    <node id="BIOTRANSFORMATION" />
+    <node id="GENOME-TO-PHENOME MAPPING" />
+    <node id="CELL FACTORIES" />
+    <node id="SINGLE CELL METHODS" />
+    <node id="KNOWLEDGE ENGINEERING" />
+    <node id="CAPILLARY ZONE ELECTROPHORESIS" />
+    <node id="ADENOSINE TRIPHOSPHATE" />
+    <node id="NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE" />
+    <node id="NUCLEOTIDES" />
+    <node id="COENZYMES" />
+    <node id="CRISPR-CAS9" />
+    <node id="LYCOPENE BIOSYNTHESIS PATHWAY" />
+    <node id="OMEGA-3 EICOSAPENTAENOIC ACID" />
+    <node id="BIODIESEL FUEL" />
+    <node id="FUNCTIONAL FATTY ACIDS" />
+    <node id="BETA-CAROTENE BIOSYNTHESIS PATHWAY" />
+    <node id="GENE INTEGRATION" />
+    <node id="GFP EXPRESSION CASSETTE" />
+    <node id="GENOMIC LOCI" />
+    <node id="RIBOSOMAL DNA (RDNA) LOCUS" />
+    <node id="CAROTENOID" />
+    <node id="LYCOPENE BIOSYNTHESIS" />
+    <node id="CRTE" />
+    <node id="CRTB" />
+    <node id="CRTI" />
+    <node id="LIPID METABOLISM" />
+    <node id="DETERGENTS" />
+    <node id="HIGH-THROUGHPUT SCREENING" />
+    <node id="ENZYMATIC PATHWAYS" />
+    <node id="WAX ESTERS" />
+    <node id="ISOPRENOID-DERIVED COMPOUNDS" />
+    <node id="POLYHYDROXYALKANOATES" />
+    <node id="FREE HYDROXYLATED FATTY ACIDS" />
+    <edge source="BETA-CAROTENE" target="YARROWIA LIPOLYTICA" />
+    <edge source="BETA-CAROTENE" target="ZEAXANTHIN" />
+    <edge source="BETA-CAROTENE" target="CARB" />
+    <edge source="BETA-CAROTENE" target="CARRP" />
+    <edge source="BETA-CAROTENE" target="ASTAXANTHIN" />
+    <edge source="BETA-CAROTENE" target="PHYTOENE SYNTHASE/LYCOPENE CYCLASE (CRTYB)" />
+    <edge source="BETA-CAROTENE" target="PHYTOENE DESATURASE (CRTI)" />
+    <edge source="BETA-CAROTENE" target="3-HYDROXY-3-METHYLGLUTARYL-COENZYME A REDUCTASE (HMG1)" />
+    <edge source="BETA-CAROTENE" target="GERANYLGERANYL DIPHOSPHATE SYNTHASE (GGS1/CRTE)" />
+    <edge source="BETA-CAROTENE" target="SQUALENE SYNTHASE (SQS1)" />
+    <edge source="YARROWIA LIPOLYTICA" target="LIPIDS" />
+    <edge source="YARROWIA LIPOLYTICA" target="LUTEIN" />
+    <edge source="YARROWIA LIPOLYTICA" target="METABOLIC ENGINEERING" />
+    <edge source="YARROWIA LIPOLYTICA" target="&#914;-CAROTENE" />
+    <edge source="YARROWIA LIPOLYTICA" target="ASTAXANTHIN" />
+    <edge source="YARROWIA LIPOLYTICA" target="TERPENOID BIOSYNTHESIS" />
+    <edge source="YARROWIA LIPOLYTICA" target="PLANT OIL" />
+    <edge source="YARROWIA LIPOLYTICA" target="LIPID-DERIVED FEEDSTOCK" />
+    <edge source="YARROWIA LIPOLYTICA" target="HOMOLOGY-INDEPENDENT GENOME INTEGRATION" />
+    <edge source="YARROWIA LIPOLYTICA" target="BETA-CAROTENE BIOSYNTHETIC PATHWAY" />
+    <edge source="YARROWIA LIPOLYTICA" target="BETA-IONONE" />
+    <edge source="YARROWIA LIPOLYTICA" target="OLEAGINOUS YEAST" />
+    <edge source="YARROWIA LIPOLYTICA" target="MEVALONATE PATHWAY" />
+    <edge source="YARROWIA LIPOLYTICA" target="TERPENOID" />
+    <edge source="YARROWIA LIPOLYTICA" target="SPT15-LIKE" />
+    <edge source="YARROWIA LIPOLYTICA" target="HOMOLOGOUS RECOMBINATION" />
+    <edge source="YARROWIA LIPOLYTICA" target="RNA POLYMERASE" />
+    <edge source="YARROWIA LIPOLYTICA" target="FATTY ACID DEGRADATION" />
+    <edge source="YARROWIA LIPOLYTICA" target="GENOME-WIDE MULTI-GENE EXPRESSION" />
+    <edge source="YARROWIA LIPOLYTICA" target="BETA-CAROTENE BIOSYNTHETIC GENES" />
+    <edge source="YARROWIA LIPOLYTICA" target="URA3" />
+    <edge source="YARROWIA LIPOLYTICA" target="PEX10" />
+    <edge source="YARROWIA LIPOLYTICA" target="BIOTECHNOLOGICAL APPLICATIONS" />
+    <edge source="YARROWIA LIPOLYTICA" target="LYCOPENE" />
+    <edge source="YARROWIA LIPOLYTICA" target="METABOLIC STRENGTHS" />
+    <edge source="YARROWIA LIPOLYTICA" target="FATTY ACIDS" />
+    <edge source="YARROWIA LIPOLYTICA" target="CAROTENOIDS" />
+    <edge source="YARROWIA LIPOLYTICA" target="CRISPR-CAS9" />
+    <edge source="YARROWIA LIPOLYTICA" target="LYCOPENE BIOSYNTHESIS PATHWAY" />
+    <edge source="YARROWIA LIPOLYTICA" target="OMEGA-3 EICOSAPENTAENOIC ACID" />
+    <edge source="YARROWIA LIPOLYTICA" target="BIODIESEL FUEL" />
+    <edge source="YARROWIA LIPOLYTICA" target="FUNCTIONAL FATTY ACIDS" />
+    <edge source="YARROWIA LIPOLYTICA" target="BETA-CAROTENE BIOSYNTHESIS PATHWAY" />
+    <edge source="YARROWIA LIPOLYTICA" target="CAROTENOID" />
+    <edge source="YARROWIA LIPOLYTICA" target="LYCOPENE BIOSYNTHESIS" />
+    <edge source="YARROWIA LIPOLYTICA" target="HIGH-THROUGHPUT SCREENING" />
+    <edge source="YARROWIA LIPOLYTICA" target="ENZYMATIC PATHWAYS" />
+    <edge source="YARROWIA LIPOLYTICA" target="WAX ESTERS" />
+    <edge source="YARROWIA LIPOLYTICA" target="ISOPRENOID-DERIVED COMPOUNDS" />
+    <edge source="YARROWIA LIPOLYTICA" target="POLYHYDROXYALKANOATES" />
+    <edge source="YARROWIA LIPOLYTICA" target="FREE HYDROXYLATED FATTY ACIDS" />
+    <edge source="ZEAXANTHIN" target="ANTIOXIDANT" />
+    <edge source="ACETIC ACID" target="CLOSTRIDIUM ACETICUM" />
+    <edge source="CLOSTRIDIUM ACETICUM" target="FERMENTATION" />
+    <edge source="FERMENTATION" target="ASTAXANTHIN" />
+    <edge source="FERMENTATION" target="BETA-IONONE" />
+    <edge source="FERMENTATION" target="HETEROLOGOUS PATHWAYS" />
+    <edge source="FERMENTATION" target="SYNTHETIC CIRCUITS" />
+    <edge source="OLEAGINOUS YARROWIA LIPOLYTICA" target="SYNGAS" />
+    <edge source="MIAA7 DEGRON" target="&#914;-CAROTENE KETOLASE" />
+    <edge source="&#914;-CAROTENE" target="CAROTENOGENESIS GENES" />
+    <edge source="&#914;-CAROTENE" target="MEVALONATE PATHWAY" />
+    <edge source="&#914;-CAROTENE" target="FATTY ACID SYNTHESIS PATHWAY" />
+    <edge source="&#914;-CAROTENE" target="THMGR" />
+    <edge source="&#914;-CAROTENE" target="CANTHAXANTHIN" />
+    <edge source="&#914;-CAROTENE" target="ECHINENONE" />
+    <edge source="OSTIR1&lt;SUP&gt;F74A&lt;/SUP&gt;" target="AID SYSTEM" />
+    <edge source="OSTIR1&lt;SUP&gt;F74A&lt;/SUP&gt;" target="MT2 PROMOTER" />
+    <edge source="AID SYSTEM" target="5-AD-IAA" />
+    <edge source="AID SYSTEM" target="FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY" />
+    <edge source="MEVALONATE PATHWAY" target="BETA-IONONE" />
+    <edge source="ASTAXANTHIN" target="BIOREACTOR" />
+    <edge source="ASTAXANTHIN" target="LEUCINE BIOSYNTHESIS" />
+    <edge source="ASTAXANTHIN" target="OLEAGINOUS YEAST" />
+    <edge source="ASTAXANTHIN" target="BETA-CAROTENE KETOLASE (CRTW)" />
+    <edge source="ASTAXANTHIN" target="HYDROXYLASE (CRTZ)" />
+    <edge source="ASTAXANTHIN" target="XANTHOPHYLLS" />
+    <edge source="PLANT OIL" target="MICROBIAL BIOREFINERY" />
+    <edge source="GLYCOLYSIS" target="TCA CYCLE" />
+    <edge source="TCA CYCLE" target="CORYNEBACTERIUM GLUTAMICUM" />
+    <edge source="HOMOLOGY-INDEPENDENT GENOME INTEGRATION" target="GENOME ENGINEERING" />
+    <edge source="BETA-CAROTENE BIOSYNTHETIC PATHWAY" target="CARB AND CARRP" />
+    <edge source="BETA-IONONE" target="TERPENOID BACKBONE" />
+    <edge source="BETA-IONONE" target="CAROTENOID CLEAVAGE DIOXYGENASE 1 (CCD1)" />
+    <edge source="BETA-IONONE" target="DODECANE TRAPPING" />
+    <edge source="BETA-IONONE" target="GRAS YARROWIA LIPOLYTICA PLATFORM" />
+    <edge source="OLEAGINOUS YEAST" target="GLOBAL TRANSCRIPTION ENGINEERING" />
+    <edge source="OLEAGINOUS YEAST" target="LIPID METABOLISM" />
+    <edge source="OLEAGINOUS YEAST" target="DETERGENTS" />
+    <edge source="LIBRARY CONSTRUCTION" target="MULTIGENE EXPRESSION LIBRARIES" />
+    <edge source="LIBRARY CONSTRUCTION" target="ENZYME EXPRESSION" />
+    <edge source="GLOBAL TRANSCRIPTION ENGINEERING" target="SPT15-LIKE (YL-SPT15)" />
+    <edge source="SPT15-LIKE (YL-SPT15)" target="ERROR-PRONE PCR" />
+    <edge source="SPT15-LIKE (YL-SPT15)" target="MUTAGENESIS" />
+    <edge source="ERROR-PRONE PCR" target="SPT15-LIKE" />
+    <edge source="HOMOLOGOUS RECOMBINATION" target="KU70" />
+    <edge source="HOMOLOGOUS RECOMBINATION" target="PEX10" />
+    <edge source="HOMOLOGOUS RECOMBINATION" target="URA3" />
+    <edge source="HOMOLOGOUS RECOMBINATION" target="BETA-CAROTENE BIOSYNTHESIS PATHWAY" />
+    <edge source="HOMOLOGOUS RECOMBINATION" target="RIBOSOMAL DNA (RDNA) LOCUS" />
+    <edge source="PEX10" target="HOMOLOGOUS RECOMBINATION (HR)" />
+    <edge source="URA3" target="HOMOLOGOUS RECOMBINATION (HR)" />
+    <edge source="BETA-CAROTENE BIOSYNTHETIC GENES" target="HOMOLOGOUS RECOMBINATION (HR)" />
+    <edge source="HETEROLOGOUS PATHWAYS" target="SYNTHETIC CIRCUITS" />
+    <edge source="HETEROLOGOUS PATHWAYS" target="ENGINEERED ENZYMES" />
+    <edge source="CORYNEBACTERIUM GLUTAMICUM" target="TCA CYCLE-DERIVED BIOSYNTHESIS" />
+    <edge source="CORYNEBACTERIUM GLUTAMICUM" target="METABOLIC STRENGTHS" />
+    <edge source="METABOLIC STRENGTHS" target="CYANOBACTERIA" />
+    <edge source="METABOLIC STRENGTHS" target="RHODOCOCCUS" />
+    <edge source="LYCOPENE" target="CAPILLARY ZONE ELECTROPHORESIS" />
+    <edge source="LYCOPENE" target="ADENOSINE TRIPHOSPHATE" />
+    <edge source="LYCOPENE" target="NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE" />
+    <edge source="CYANOBACTERIA" target="PHOTOSYNTHETIC PRODUCTION" />
+    <edge source="CYANOBACTERIA" target="SUGAR PHOSPHATE PATHWAYS" />
+    <edge source="RHODOCOCCUS" target="BIOTRANSFORMATION" />
+    <edge source="GENOME-TO-PHENOME MAPPING" target="CELL FACTORIES" />
+    <edge source="CELL FACTORIES" target="SINGLE CELL METHODS" />
+    <edge source="CELL FACTORIES" target="KNOWLEDGE ENGINEERING" />
+    <edge source="CAPILLARY ZONE ELECTROPHORESIS" target="NUCLEOTIDES" />
+    <edge source="CAPILLARY ZONE ELECTROPHORESIS" target="COENZYMES" />
+    <edge source="CRISPR-CAS9" target="GENE INTEGRATION" />
+    <edge source="LYCOPENE BIOSYNTHESIS PATHWAY" target="GENE INTEGRATION" />
+    <edge source="GFP EXPRESSION CASSETTE" target="GENOMIC LOCI" />
+    <edge source="LYCOPENE BIOSYNTHESIS" target="CRTE" />
+    <edge source="LYCOPENE BIOSYNTHESIS" target="CRTB" />
+    <edge source="LYCOPENE BIOSYNTHESIS" target="CRTI" />
+  </graph>
+</graphml>

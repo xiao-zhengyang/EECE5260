@@ -1,0 +1,101 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [microorganism, metabolic pathway, gene, bioproduct, bioreactor, fermentation process, metabolic engineering, biosynthetic pathway, yeast strain, carotenoid, antioxidant, detergent, genome engineering, high-throughput screening, mutagenesis, biotechnology, synthetic biology, metabolite, enzyme, transcription factor, cell factory, bioproduct platform, CRISPR-Cas9, oleaginous yeast, lipid metabolism, signal transduction, chromosome, gene knockout, in vitro process, multiobjective optimization, terpenoid, plant hormone, transcription engineering, error-prone PCR, mevalonate pathway, bioreactor cultivation]
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: an integer score between 1 to 10, indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in The primary language of the provided texts is "English." as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. If you have to translate into The primary language of the provided texts is "English.", just translate the descriptions, nothing else!
+
+5. When finished, output {completion_delimiter}.
+
+-Examples-
+######################
+
+Example 1:
+
+entity_types: [microorganism, metabolic pathway, gene, bioproduct, bioreactor, fermentation process, metabolic engineering, biosynthetic pathway, yeast strain, carotenoid, antioxidant, detergent, genome engineering, high-throughput screening, mutagenesis, biotechnology, synthetic biology, metabolite, enzyme, transcription factor, cell factory, bioproduct platform, CRISPR-Cas9, oleaginous yeast, lipid metabolism, signal transduction, chromosome, gene knockout, in vitro process, multiobjective optimization, terpenoid, plant hormone, transcription engineering, error-prone PCR, mevalonate pathway, bioreactor cultivation]
+text:
+ biotechnology develop a sustainable economy using green technology based on microorganisms and synthetic biology through two case studies that improve metabolic capacity in yeast models Yarrowia lipolytica (Y. lipolytica) and Saccharomyces cerevisiae (S. cerevisiae). We aim to increase the production capacity of beta-carotene (β-carotene) and succinic acid, which are among the highest market demands due to their versatile use in numerous consumer products. We performed simulations to identify in silico ranking of strains based on multiple objectives: the growth rate of yeast microorganisms, the number of used chromosomes, and the production capability of β-carotene (for Y. lipolytica) and succinate (for S. cerevisiae). Our multiobjective optimization methodology identified notable gene deletions by searching a vast solution space to highlight near-optimal strains on Pareto Fronts, balancing the above-cited three objectives. Moreover, preserving the metabolic constraints and the essential genes,
+------------------------
+output:
+("entity"{tuple_delimiter}BIOTECHNOLOGY{tuple_delimiter}biotechnology{tuple_delimiter}Biotechnology is used to develop a sustainable economy using green technology based on microorganisms and synthetic biology)
+{record_delimiter}
+("entity"{tuple_delimiter}MICROORGANISMS{tuple_delimiter}microorganism{tuple_delimiter}Microorganisms are used in green technology to improve metabolic capacity in yeast models)
+{record_delimiter}
+("entity"{tuple_delimiter}SYNTHETIC BIOLOGY{tuple_delimiter}synthetic biology{tuple_delimiter}Synthetic biology is applied to enhance metabolic capacity in yeast models for sustainable economy development)
+{record_delimiter}
+("entity"{tuple_delimiter}YARROWIA LIPOLYTICA{tuple_delimiter}yeast strain{tuple_delimiter}Yarrowia lipolytica is a yeast model used to improve metabolic capacity and increase production of β-carotene)
+{record_delimiter}
+("entity"{tuple_delimiter}SACCHAROMYCES CEREVISIAE{tuple_delimiter}yeast strain{tuple_delimiter}Saccharomyces cerevisiae is a yeast model used to improve metabolic capacity and increase production of succinic acid)
+{record_delimiter}
+("entity"{tuple_delimiter}BETA-CAROTENE{tuple_delimiter}carotenoid{tuple_delimiter}Beta-carotene is a carotenoid with high market demand due to its versatile use in consumer products)
+{record_delimiter}
+("entity"{tuple_delimiter}SUCCINIC ACID{tuple_delimiter}bioproduct{tuple_delimiter}Succinic acid is a bioproduct with high market demand due to its versatile use in consumer products)
+{record_delimiter}
+("entity"{tuple_delimiter}MULTIOBJECTIVE OPTIMIZATION{tuple_delimiter}multiobjective optimization{tuple_delimiter}Multiobjective optimization is used to identify optimal yeast strains by balancing growth rate, chromosome usage, and production capability)
+{record_delimiter}
+("entity"{tuple_delimiter}CHROMOSOMES{tuple_delimiter}chromosome{tuple_delimiter}Chromosomes are used as one of the objectives in multiobjective optimization to rank yeast strains)
+{record_delimiter}
+("entity"{tuple_delimiter}GENE DELETIONS{tuple_delimiter}gene knockout{tuple_delimiter}Gene deletions are identified through multiobjective optimization to highlight near-optimal yeast strains)
+{record_delimiter}
+("relationship"{tuple_delimiter}BIOTECHNOLOGY{tuple_delimiter}MICROORGANISMS{tuple_delimiter}Biotechnology uses microorganisms to develop a sustainable economy{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}BIOTECHNOLOGY{tuple_delimiter}SYNTHETIC BIOLOGY{tuple_delimiter}Biotechnology incorporates synthetic biology to enhance metabolic capacity{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}YARROWIA LIPOLYTICA{tuple_delimiter}BETA-CAROTENE{tuple_delimiter}Yarrowia lipolytica is used to increase the production of β-carotene{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}SACCHAROMYCES CEREVISIAE{tuple_delimiter}SUCCINIC ACID{tuple_delimiter}Saccharomyces cerevisiae is used to increase the production of succinic acid{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}MULTIOBJECTIVE OPTIMIZATION{tuple_delimiter}CHROMOSOMES{tuple_delimiter}Chromosomes are one of the objectives in multiobjective optimization for ranking yeast strains{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}MULTIOBJECTIVE OPTIMIZATION{tuple_delimiter}GENE DELETIONS{tuple_delimiter}Multiobjective optimization identifies gene deletions to highlight near-optimal strains{tuple_delimiter}8)
+{completion_delimiter}
+#############################
+
+
+Example 2:
+
+entity_types: [microorganism, metabolic pathway, gene, bioproduct, bioreactor, fermentation process, metabolic engineering, biosynthetic pathway, yeast strain, carotenoid, antioxidant, detergent, genome engineering, high-throughput screening, mutagenesis, biotechnology, synthetic biology, metabolite, enzyme, transcription factor, cell factory, bioproduct platform, CRISPR-Cas9, oleaginous yeast, lipid metabolism, signal transduction, chromosome, gene knockout, in vitro process, multiobjective optimization, terpenoid, plant hormone, transcription engineering, error-prone PCR, mevalonate pathway, bioreactor cultivation]
+text:
+ a considerable portion of astaxanthin was found excreted into the spent oil. Astaxanthin was the predominant carotenoid in the extracellular oil phase that allowed facile in situ recovery of astaxanthin without cell lysis. Autoclaving the safflower oil medium elevated the peroxide level but it declined quickly during fermentation (reduced by 84% by day 3) and did not inhibit cell growth or astaxanthin production. In a 1.5-L fed-batch bioreactor culture with a YnB-based medium containing 20% safflower oil, and with the feeding of casamino acids, astaxanthin production reached 54 mg/L (53% excreted) in 28 days. Further improvement in astaxanthin titer and productivity was achieved by restoring leucine biosynthesis in the host, and running fed-batch fermentation using a high carbon-to-nitrogen ratio yeast extract
+------------------------
+output:
+("entity"{tuple_delimiter}ASTAXANTHIN{tuple_delimiter}CAROTENOID{tuple_delimiter}Astaxanthin is a predominant carotenoid found in the extracellular oil phase, allowing for easy in situ recovery without cell lysis)
+{record_delimiter}
+("entity"{tuple_delimiter}BIOREACTOR{tuple_delimiter}BIOREACTOR{tuple_delimiter}A 1.5-L fed-batch bioreactor culture was used with a YnB-based medium containing 20% safflower oil for astaxanthin production)
+{record_delimiter}
+("entity"{tuple_delimiter}FERMENTATION{tuple_delimiter}FERMENTATION PROCESS{tuple_delimiter}The fermentation process involved autoclaving safflower oil medium, which initially elevated peroxide levels but did not inhibit cell growth or astaxanthin production)
+{record_delimiter}
+("entity"{tuple_delimiter}LEUCINE BIOSYNTHESIS{tuple_delimiter}BIOSYNTHETIC PATHWAY{tuple_delimiter}Restoring leucine biosynthesis in the host improved astaxanthin titer and productivity during fermentation)
+{record_delimiter}
+("relationship"{tuple_delimiter}ASTAXANTHIN{tuple_delimiter}BIOREACTOR{tuple_delimiter}Astaxanthin production reached 54 mg/L in a 1.5-L fed-batch bioreactor culture{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}ASTAXANTHIN{tuple_delimiter}FERMENTATION{tuple_delimiter}Astaxanthin production was part of the fermentation process, which did not inhibit cell growth despite initial peroxide level elevation{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}ASTAXANTHIN{tuple_delimiter}LEUCINE BIOSYNTHESIS{tuple_delimiter}Restoring leucine biosynthesis in the host improved astaxanthin titer and productivity{tuple_delimiter}9)
+{completion_delimiter}
+#############################
+
+
+
+-Real Data-
+######################
+entity_types: [microorganism, metabolic pathway, gene, bioproduct, bioreactor, fermentation process, metabolic engineering, biosynthetic pathway, yeast strain, carotenoid, antioxidant, detergent, genome engineering, high-throughput screening, mutagenesis, biotechnology, synthetic biology, metabolite, enzyme, transcription factor, cell factory, bioproduct platform, CRISPR-Cas9, oleaginous yeast, lipid metabolism, signal transduction, chromosome, gene knockout, in vitro process, multiobjective optimization, terpenoid, plant hormone, transcription engineering, error-prone PCR, mevalonate pathway, bioreactor cultivation]
+text: {input_text}
+######################
+output:
