@@ -167,11 +167,11 @@ if __name__ == "__main__":
 ## Week 5-6 Data retrieval and knowledge synthesis
 
 ### 🔍 Use NEKO for Knowledge Mining from PubMed Search  
-NEKO integrates PubMed, Google Scholar, bioRxiv, and arXiv searches to streamline literature mining. It automatically extracts article metadata (title, abstract, authors) and uses LLMs (e.g., ChatGPT, Qwen) to identify causal relationships across studies.  
+NEKO integrates PubMed searches for literature mining. It automatically uses LLMs (e.g., ChatGPT, Qwen) to identify entities and causal relationships in studies.  
 
 - Recommended model: ```qwen3:8b``` (downloadable via [Ollama](https://ollama.ai/))
-- Also download: ```nomic-embed-text:latest``` for NEKO embeddings  
-- Outputs include:  
+- Also download: ```nomic-embed-text:latest``` for embedding  
+- NEKO outputs include:  
   - Summarized reports  
   - Knowledge graphs (via PyVis + Word2Vec embeddings)  
 
