@@ -54,7 +54,7 @@ except Exception as e:
 
 ### 📊 Example: Reading GSM Reactions with Local LLM (qwen3:8b)
 
-Constructing a **13C Metabolic Flux Analysis (MFA) model** often begins with simplifying a **Genome-scale model (GSM) **.  
+Constructing a **13C Metabolic Flux Analysis (MFA) model** often begins with simplifying a **Genome-scale model (GSM)**.  
 This process requires carefully deciding which reactions belong to the *central carbon metabolism* (glycolysis, PPP, TCA cycle, anaplerotic shunts, and key exchange reactions).  
 
 Manually reviewing ~2000 reactions one by one is **extremely time-consuming** and prone to inconsistency.  
