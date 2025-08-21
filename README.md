@@ -173,7 +173,7 @@ NEKO integrates PubMed searches for literature mining. It automatically uses LLM
 - Also download: ```nomic-embed-text:latest``` for embedding  
 - NEKO outputs include:  
   - Summarized reports  
-  - Knowledge graphs (via PyVis + Word2Vec embeddings)  
+  - Knowledge graphs (via PyVis)  
 
 ---
 
