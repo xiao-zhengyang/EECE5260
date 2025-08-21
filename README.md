@@ -165,10 +165,75 @@ if __name__ == "__main__":
 
 
 ## Week 5-6 Data retrieval and knowledge synthesis
-Please follow the repository Advanced-Biotechnology-Series for NEKO and GraphRAG
-We will also upload code here after the class.
 
-https://github.com/xiao-zhengyang/Advanced-Biotechnology-Series 
+### 🔍 Use NEKO for Knowledge Mining from PubMed Search  
+NEKO integrates PubMed, Google Scholar, bioRxiv, and arXiv searches to streamline literature mining. It automatically extracts article metadata (title, abstract, authors) and uses LLMs (e.g., ChatGPT, Qwen) to identify causal relationships across studies.  
 
-<img width="1687" height="361" alt="image" src="https://github.com/user-attachments/assets/908fbe0a-c878-42ae-87e0-e49259c3f3d8" />
+- Recommended model: **qwen3:8b** (downloadable via [Ollama](https://ollama.ai/))
+- Also download: **nomic-embed-text:latest** for NEKO embeddings  
+- Outputs include:  
+  - Summarized reports  
+  - Knowledge graphs (via PyVis + Word2Vec embeddings)  
+
+---
+
+### 🧩 Use GraphRAG  
+**GraphRAG** is an advanced framework designed to enhance LLM performance in domain-specific knowledge synthesis. It supports **global, local, and DRIFT** query modes for flexible and context-rich question answering.  
+
+#### Example Workflow: β-carotene Production in *Yarrowia lipolytica*  
+
+**Step 1: Configure Ollama LLM**  
+By default, Ollama truncates long texts (e.g., 2k tokens). Extend the context length to 8k tokens:  
+
+```bash
+# Create custom LLM
+ollama create qwen2.5:14b_8k -f settings.txt
+```
+
+In `settings.txt`, add:  
+```
+PARAMETER num_ctx 8192
+```
+
+---
+
+**Step 2: Initialize GraphRAG and Prompt Tuning**  
+Install and initialize a new project:  
+
+```bash
+pip install graphrag==1.2.0
+graphrag init --root ./[Yarrowia_local]
+```
+
+- A preconfigured project with example input text is available in the repository.  
+- For systems without GPU, set `request_timeout ≥ 10000` in `settings.yaml`.  
+- Autotune prompts for context-awareness:  
+
+```bash
+python -m graphrag prompt-tune   --root ./[Yarrowia_local]   --config ./[Yarrowia_local]/settings_prompt_tune.yaml
+```
+
+> Use large-parameter LLMs (>70B) such as GPT-4o or Qwen2.5-instruct-72B for tuning. Replace the OpenAI API key in the YAML config file.  
+
+---
+
+**Step 3: Index Input Text**  
+
+```bash
+graphrag index --root ./[Yarrowia_local]
+```
+
+- CPU: ~10+ hours  
+- GPU: <30 minutes  
+
+---
+
+**Step 4: Querying and Visualization**  
+GraphRAG supports multiple query modes:  
+
+- **Global Search** → Broad topic summaries  
+- **Local Search** → Fine-grained retrieval of details  
+- **DRIFT Search** → Dynamic context-aware queries  
+
+Visualization outputs (stored in `output/`) can be explored using **Gephi** or **Cytoscape** for graph-based knowledge discovery.  
 
