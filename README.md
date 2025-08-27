@@ -184,9 +184,6 @@ Use the uploaded jupyter notebook for using NEKO.
 ---
 
 ### 🧩 Use GraphRAG  
-**GraphRAG** is an advanced framework designed to enhance LLM performance in domain-specific knowledge synthesis. It supports **global, local, and DRIFT** query modes for flexible and context-rich question answering.  
-
-#### Example Workflow
 
 GraphRAG is an advanced retrieval-augmented generation (RAG) system that reads text and organizes it into knowledge graphs for better AI information retrieval.
 
