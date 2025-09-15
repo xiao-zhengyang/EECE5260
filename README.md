@@ -168,7 +168,7 @@ if __name__ == "__main__":
 
 ### 🔍 Use NEKO for Knowledge Mining from PubMed Search  
 NEKO integrates PubMed searches for literature mining. It automatically uses LLMs (e.g., ChatGPT, Qwen) to identify entities and causal relationships in studies.  
-Use the uploaded jupyter notebook for using NEKO.
+Use the **uploaded jupyter notebook** for using NEKO.
 - Recommended model: ```qwen3:8b``` (download via [Ollama](https://ollama.ai/))
   ```bash
   ollama pull qwen3:8b
