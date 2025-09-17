@@ -16,6 +16,15 @@
 |                            | 235B (Qwen3-235B) | 142 GB     | Data center GPU (H100) or Mac Studio M-series unified memory|
 |                            | 671B (DeepSeek R1) | 404 GB     |   ''                                  |
 
+For example, if you want to download Qwen3-8B, run this in your terminal:
+```cmd
+ollama pull qwen3:8b
+```
+To inspect the models you downloaded, run this:
+```cmd
+ollama list
+```
+
 ### 💻 Example: Calling Ollama API from Python (Jupyter Notebook)
 
 ```python
@@ -167,9 +176,10 @@ if __name__ == "__main__":
 ## Week 5-6 Data retrieval and knowledge synthesis
 
 ### 🔍 Use NEKO for Knowledge Mining from PubMed Search  
-NEKO integrates PubMed searches for literature mining. It automatically uses LLMs (e.g., ChatGPT, Qwen) to identify entities and causal relationships in studies.  
+NEKO integrates PubMed searches for literature mining. It automatically uses LLMs (e.g., ChatGPT, Qwen) to identify entities and causal relationships in studies. To read more about NEKO, please refer to my publication: https://www.sciencedirect.com/science/article/pii/S1096717624001484
+
 Use the **uploaded jupyter notebook** for using NEKO.
-- Recommended model: ```qwen3:8b``` (download via [Ollama](https://ollama.ai/))
+- Recommended model: ```qwen3:8b``` or ```qwen2.5:7b```(download via [Ollama](https://ollama.ai/))
   ```bash
   ollama pull qwen3:8b
   ```
@@ -197,7 +207,7 @@ GraphRAG is an advanced retrieval-augmented generation (RAG) system that reads t
    - On Windows: Press Win + R, type in "cmd" and run.  
    - On Mac: Press Cmd + Space, then type "Terminal".
 
-4. **Install Jupyter Lab.**  
+4. **Install Jupyter Lab or Jupyter notebook.**  
    Run the following command in the terminal.
    ```bash
    pip install jupyterlab
